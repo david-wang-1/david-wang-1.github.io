@@ -1,13 +1,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Portfolio Jekyll Theme
+title: David Wang
 description: Powered by Jekyll and GitHub Pages
-email: l.nguyen.paul@gmail.com
+email: daviwang@seas.upenn.edu
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Blog', url: 'blog.html'}
+# - {name: 'Blog', url: 'blog.html'}
 - {name: 'About', url: 'about.html'}
 - {name: 'Contact', url: 'contact.html'}
 
@@ -17,9 +17,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/#'
-  rel-publisher: 'https://plus.google.com/u/0/#'
+  description: 'Personal portfolio for David Wang powered by Jekyll and GitHub Pages '
+  rel-author: 'https://github.com/david-wang-1'
+  rel-publisher: 'https://github.com/david-wang-1'
 
 #-------------------------------
 # Google Analytics Section
