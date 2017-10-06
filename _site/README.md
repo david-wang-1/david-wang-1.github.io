@@ -6,7 +6,7 @@ This is a portfolio Jekyll theme built from the ground up, using the [DevTips St
 
 #### Quick-Start Guide
 
-To start using this theme right away, [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork). From there, you can rename the repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `_config.yml` and `_settings.yml` file (in the _data folder) to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at `http://USERNAME.github.io`.
+To start using this theme right away, [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork). From there, you can rename the repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `_config.yml` and `_settings.yml` file (in the `_data folder`) to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at `http://USERNAME.github.io`.
 
 Head over to the `_posts` directory to view all the blog posts that are currently on the website, and to see examples of what post files generally look like. Project content is added in the `projects` folder.  You can simply just duplicate the template posts and start adding your own content.
 
@@ -22,7 +22,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 #### Configuration
 
-To change site settings, edit the `_config.yml` file found in the root of your repository and the `_settings.yml` file found in the `_data` folder. Anything under `Site Settings` can be tweaked to your liking.
+To change site settings, edit the `_config.yml` file found in the root of your repository and the `_settings.yml` file found in the `_data` folder.
 
 If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
 
