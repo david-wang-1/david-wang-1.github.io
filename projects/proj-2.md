@@ -1,8 +1,11 @@
 ---
 layout: post
-title: 'Project Two'
+title: 'Sencity'
 ---
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+I worked on Sencity while I was an intern with <a href="http://bresslergroup.com" target="_blank">BresslerGroup</a>. Sencity was a project to create a network of distributed IoT nodes and interpret their data into a user-friendly representation of crowd traffic at different tourist hotspots across Philadelphia. 
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
+{% include image.html url="http://www.bresslergroup.com/blog/sencity-lora-smart-city-iot-solution/" image="projects/proj-2/sencity1.jpg" %}
+
+{% include image.html url="http://www.bresslergroup.com/blog/sencity-lora-smart-city-iot-solution/" image="projects/proj-2/sencity2.jpg" %}
+
