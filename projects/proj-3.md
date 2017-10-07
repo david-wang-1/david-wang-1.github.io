@@ -26,4 +26,4 @@ I was solely responsible for the development of an Android application to interf
 In case the transmission was ever lost or corrupted, the device would catch the lack of acknowledge and resend the dropped packets in question. 
 
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-3/thumb.jpg" %}
+{% include image.html image="projects/proj-3/thumb.jpg" %}
