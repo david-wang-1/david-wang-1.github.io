@@ -17,7 +17,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Personal portfolio for David Wang powered by Jekyll and GitHub Pages '
+  description: 'Personal portfolio for David Wang'
   rel-author: 'https://github.com/david-wang-1'
   rel-publisher: 'https://github.com/david-wang-1'
 
@@ -35,7 +35,7 @@ seo:
 # About Section
 
 about: >
-  # Portfolio Jekyll Theme
+  # About Me
 
   I am a Junior studying Computer Engineering at the University of Pennsylvania, planning to submatriculate into a MSE in Robotics. Feel free to contact me at [daviwang@seas.upenn.edu](mailto:daviwang@seas.upenn.edu)!
 
@@ -58,7 +58,6 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'instagram', link: '#'}
 - {icon: 'github', link: 'https://github.com/david-wang-1'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/david-wang-a4a856104/'}
 - {icon: 'envelope', link: 'mailto:daviwang@seas.upenn.edu'}
