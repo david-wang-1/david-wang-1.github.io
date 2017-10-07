@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Project One'
+title: 'Ghost Mouse'
 ---
-Ghost mouse is a device that transforms any flat surface into an invisible mouse/touchpad. With Ghost Mouse, users could control their computer/cell phone over Bluetooth by swiping and tapping on a nearby desk or coffee table. It functions by projecting a plane of infrared light onto the surface and using an infrared camera to detect finger position. Firmware for the product was developed on a NXP microcontroller in C and C++, to filter, synthesize, and process raw camera data into mouse movements and clicks. 
+Ghost Mouse is a device that transforms any flat surface into an invisible mouse/touchpad. With Ghost Mouse, users could control their computer/cell phone over Bluetooth by swiping and tapping on a nearby desk or coffee table. It functions by projecting a plane of infrared light onto the surface and using an infrared camera to detect finger position. Firmware for the product was developed on a NXP microcontroller in C and C++, to filter, synthesize, and process raw camera data into mouse movements and clicks. 
 
 GhostMouse was inspired by <a href="amazon.com/AGS-Projection-Bluetooth-Keyboard-Smartphone/dp/B00RP59MC0/">these</a> poorly rated "laser keyboards", which claimed to allow users to type on their desk as if it were a keyboard. In practise, they suffer from poor error rejection and slow typing speed. Using these products as inspiration, we  worked by projecting a plane of infrared light onto the surface and uses a infrared camera sensor to detect user fingertip positions. As the user interacts with the surface, we collect data on the displacement in fingertip positions and process it into real-time cursor responses seen on the paired PC/Android device. A multitude of different filtering approaches are used to remove signal jitter, as well as signal artifacts caused by errant user behavior. The Bluetooth HID mouse protocols are handled by an Bluefruit EZ-Key HID controller.
 
@@ -12,6 +12,6 @@ Once we had this data, we faced another significant obstacle in the process of p
 
 
 
-{% include image.html url="https://github.com/david-wang-1/ghost-mouse" image="projects/proj-1/dog.jpg" %}
+{% include image.html url="https://github.com/david-wang-1/ghost-mouse" image="projects/proj-1/thumb.jpg" %}
 
 {% include image.html url="https://github.com/david-wang-1/ghost-mouse" image="projects/proj-1/wall.jpg" %}
