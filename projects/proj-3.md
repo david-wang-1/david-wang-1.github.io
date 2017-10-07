@@ -3,9 +3,9 @@ layout: post
 title: 'Rugged Data Collection Device'
 ---
 
-<i>Note: I am currently under NDA with <a href="http://bresslergroup.com" target="_blank">BresslerGroup</a> about the exact nature of this project, so many specifics/details have been ommitted.</i>
+<i>Note: I am currently under NDA with <a href="http://bresslergroup.com" target="_blank">BresslerGroup</a> about the exact nature of this project, so many specifics/details have been omitted.</i>
 
-The parameters for this project were to create a mechanically durable device to collect positional data. I served as one of the primary developers for this project for both the hardware and software, though the majority of my time was dedicated to software development. On the hardware side, I worked on the schematic design and PCB layout in Altium designer for the board. 
+The parameters for this project were to create a mechanically durable device to collect positional data. I served as one of the primary developers for this project for both the hardware and software, though the majority of my time was dedicated to software development. On the hardware side, I worked on the schematic design and PCB layout in Altium Designer for the board. 
 
 Some interesting design constraints that I faced:
 
@@ -15,7 +15,7 @@ Some interesting design constraints that I faced:
 
 3. The client had multiple desired use cases for the device, necessitating consistent data capture across several magnitudes of acceleration and rotation values. To address this, complementing a gyroscope and magnetometer, we incorporated two different accelerometers that had configurable sensitivity ranges, to cover acceleration values between 1 and 4000g's, that could be configured based on the use case.
 
-On the software side, I worked on the firmware in C to read sensor data and export it from the device via Bluetooth Low Energy over a GATT server. A primitive 'round-robin' type scheduler was implemented, where data from each sensor was read and buffered for writing to external memory as it became available. Commanands were received by the device over BLE to either begin data collection, stop data collection, or write data out over BLE. 
+On the software side, I worked on the firmware in C to read sensor data and export it from the device via Bluetooth Low Energy over a GATT server. A primitive 'round-robin' type scheduler was implemented, where data from each sensor was read and buffered for writing to external memory as it became available. Commands were received by the device over BLE to either begin data collection, stop data collection, or write data out over BLE. 
 
 I was solely responsible for the development of an Android application to interface with this device. It was responsible for taking user commands (e.g. start taking impact data) and catalyzing the appropriate action on the device, and also receiving/saving data collected by the device to an external file on the Android device. The data transfer protocol we used, similar to primitive TCP packet sending, essentially consisted of the following steps on repeat:
 
